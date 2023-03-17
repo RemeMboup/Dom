@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ma Boutique</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <a class="logo" href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.hgou4rjYHLlCBlIBdekU4QHaHa&pid=Api&rs=1&c=1&qlt=95&w=103&h=103"></a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar__link">
+                <a class="nav-item nav-link active" href="#">Acceuil</a>
+                <a class="nav-item nav-link" href="#">Nouveaute</a>
+                <a class="nav-item nav-link" href="#">Promotions</a>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="section6__box d-flex justify-content-around">
+                <div class="card section6__box1 article" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/I/41K83tJfUOS._AC_UL320_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="nom_produit" id="nom_produit">NETGEAR</h3>
+                        <p>
+                            Point d'acces Wifi
+                        </p>
+                        <div class="table_container1">
+                            <table class="section6__box1__table1">
+                                <tr>
+                                    <td><button type="submit" id="bnt_remove" class="bnt_remove">-</button></td>
+                                    <!-- <td><input  type="text" class="produitNomber" value="0"></td> -->
+                                    <td><p class="produitNomber" id="produitNomber">0</p></td>
+                                    <td><button type="submit" id="bnt_add" class="bnt_add">+</button></td>
+                                    <td><button id="btn_aimer" class="btn_aimer">&hearts;</button></td>
+                                </tr>
+                            </table>
+                            <div>
+                                Prix Unitaire:<P id="prix" class="prix">5000Fcfa</P>
+                                Prix Total:<p id="prix_total" class="prix_total">0Fcfa</p></div>
+                            <button class="btn_add_panier"  id="btn_add_panier" type="submit">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card section6__box2 article" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/I/61T85CGI4ZL._AC_UL320_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="nom_produit" id="nom_produit">CLE USB</h3>
+                        <P>SanDisk ultra 128Go avec une vitesse allant jusqu'a 130m/s</P>
+                        
+                    </div>
+                    <div class="table_container2">
+                        <div>
+                            <table class="section6__box1__table1">
+                                <tr>
+                                    <td><button type="submit" id="bnt_remove" class="bnt_remove">-</button></td><br>
+                                    <!-- <td><input type="text" class="produitNomber" value="0"></td> -->
+                                    <td><p class="produitNomber" id="produitNomber">0</p></td>
+                                    <td><button type="submit" id="bnt_add" class="bnt_add">+</button></td>
+                                    <td><td><button id="btn_aimer" class="btn_aimer">&hearts;</button></td></td>
+                                </tr>
+                            </table>
+                        </div>
+                            <div>
+                                Prix Unitaire:<p id="prix" class="prix">2000fcfa</p>
+                                Prix Total:<p id="prix_total" class="prix_total">0Fcfa</p>
+                            </div>
+                            <button class="btn_add_panier"  id="btn_add_panier" type="submit">Ajouter au panier</button>
+                        </div>
+                </div>
+                <div class="card section6__box3 article" style="width: 18rem;">
+                        <img src="https://m.media-amazon.com/images/I/71JG7rXKxOL._AC_UL320_.jpg"  class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="nom_produit" id="nom_produit">Clavier</h3>
+                            <p>
+                                Clavier sans fil rétroéclairé
+                            </p>
+                        </div>
+                        <div class="table_container3">
+                            <table class="section6__box1__table1">
+                                <tr>
+                                    <td><button type="submit" id="bnt_remove" class="bnt_remove">-</button></td>
+                                    <!-- <td><input type="text"  class="produitNomber" value="0"></td> -->
+                                    <td><p class="produitNomber" id="produitNomber">0</p></td>
+                                    <td><button type="submit" id="bnt_add" class="bnt_add">+</button></td>
+                                    <td><td><button id="btn_aimer" class="btn_aimer">&hearts;</button></td></td>
+                                </tr>
+                            </table>
+                            <div>
+                                Prix Unitaire:<P id="prix" class="prix">6000fcfa</P>
+                                Prix Total:<p id="prix_total" class="prix_total">0Fcfa</p>
+                            </div>
+                            <button class="btn_add_panier"  id="btn_add_panier" type="submit">Ajouter au panier</button>
+                        </div>
+                    </div>
+            </div><br><br>
+        <div class="section6__box d-flex justify-content-around">
+                <div class="card section6__box4 article" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/I/71Brf0SqotL._AC_UL320_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="nom_produit" id="nom_produit">Téléviseur</h3>
+                        <p>
+                            Téléviseur viewsonic avec une compatibile Dc10
+                        </p>
+                        <div class="table_container4">
+                            <table class="section6__box1__table1">
+                                <tr>
+                                    <td><button type="submit" id="bnt_remove" class="bnt_remove">-</button></td>
+                                    <!-- <td><input  type="text" class="produitNomber" value="0"></td> -->
+                                    <td><p class="produitNomber" id="produitNomber">0</p></td>
+                                    <td><button type="submit" id="bnt_add" class="bnt_add">+</button></td>
+                                    <td><td><button id="btn_aimer" class="btn_aimer">&hearts;</button></td></td>
+                                </tr>
+                            </table>
+                            <div>
+                                Prix Unitaire:<p id="prix" class="prix">97000Fcfa</p>
+                                Prix Total:<p id="prix_total" class="prix_total">0Fcfa</p>
+                            </div>
+                            <button class="btn_add_panier"  id="btn_add_panier" type="submit">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card section6__box2 article" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/I/81YQgC-lRRL._AC_UL320_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                            <h3 class="nom_produit" id="nom_produit">Dique dur</h3>
+                            <p>
+                                Dique dure externe avec un technologie NVme
+                            </p>
+                            <div class="table_container5">
+                                <table class="section6__box1__table1">
+                                    <tr>
+                                        <td><button type="submit" id="bnt_remove" class="bnt_remove">-</button></td>
+                                        <!-- <td><input  type="text" class="produitNomber" value="0"></td> -->
+                                        <td><p class="produitNomber" id="produitNomber">0</p></td>
+                                        <td><button type="submit" id="bnt_add" class="bnt_add">+</button></td>
+                                        <td><td><button id="btn_aimer" class="btn_aimer">&hearts;</button></td></td>
+                                    </tr>
+                                </table>
+                                <div>
+                                    Prix Unitaire:<p id="prix" class="prix">15000fcfa</p>
+                                    Prix Total:<p id="prix_total" class="prix_total">0Fcfa</p>
+                                </div>
+                                <button class="btn_add_panier"  id="btn_add_panier" type="submit">Ajouter au panier</button>
+                            </div>
+                    </div>
+                </div>
+                <div class="card section6__box3 article" style="width: 18rem;">
+                        <img src="https://m.media-amazon.com/images/I/41netDcpQGL._AC_UL320_.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="nom_produit" id="nom_produit">Lingette</h3>
+                            <p>
+                                Lingette de nettoyage pour lunette
+                            </p>
+                            
+                        </div>
+                        <div class="table_container">
+                            <table class="section6__box1__table1">
+                                <tr>
+                                    <td><button type="submit" id="bnt_remove" class="bnt_remove" >-</button></td>
+                                    <!-- <td><input type="text"  class="produitNomber" value="0"></td> -->
+                                    <td><p class="produitNomber" id="produitNomber">0</p></td>
+                                    <td><button type="submit" id="bnt_add" class="bnt_add">+</button></td>
+                                    <td><td><button id="btn_aimer" class="btn_aimer">&hearts;</button></td></td>
+                                </tr>
+                            </table>
+                            <div>
+                                Prix Unitaire:<p id="prix" class="prix">7500fcfa</p>
+                                Prix Total:<p id="prix_total" class="prix_total">0Fcfa</p>
+                            </div>
+                            <button class="btn_add_panier"  id="btn_add_panier" type="submit">Ajouter au panier</button>
+                        </div>
+                </div>
+                <div>Tatal à payer:<p id="leTotal" class="Letotal">0Fcfa</p></div>
+        </div>
+    </section><br><br><br>
+    <section class="table2">
+        <table class="table table-bordered" id="table">
+                <thead class="head" id="head">
+                    <tr>
+                    <th scope="col">Produit</th>
+                    <th scope="col">Prix</th>
+                    <th scope="col">Quantite</th>
+                    <th scope="col">Sous-total</th>
+                    <th scope="col">Supprimer</th>
+                    </tr>
+                </thead>
+                
+                </table>
+    </section>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
